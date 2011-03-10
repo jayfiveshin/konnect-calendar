@@ -1,6 +1,8 @@
 TheTimeline::Application.routes.draw do
   get "page/welcome"
+  get "page/schedule"
 
+  match '/schedule',  :to => 'page#schedule'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

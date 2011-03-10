@@ -11,16 +11,16 @@ footer {
 }
 
 #sidebar {
-	width: 240px;
+	width: 140px;
 	height: 500px;
 	padding: 15px;
-	border-style: dotted;
-	border-width: 1px;
-}
+/*  border-style: dotted;
+  border-width: 1px;
+*/}
 
 #mainbar {
-	width: 400px;
-	height: 1040px;
+	width: 800px;
+	min-height: 1040px;
 	padding: 15px;
 	border-style: ridge;
 	border-width: 5px;
@@ -53,7 +53,7 @@ body, p, h1, h2, h3, h4, table, td, th, ul, ol, textarea, input {
 }
 
 h1 {
-	font-size: 200%;
+	font-size: 210%;
 	font-weight: 300;
 	letter-spacing: -0.5px;
 	margin-top: 0;
@@ -130,4 +130,34 @@ iframe {
 	font-size: 300%;
 	border-style: dotted;
 	border-width: 1px;
+}
+
+div.gcal {
+	text-align: center;
+}
+
+table {
+  border: 5px ridge orange;
+}
+
+td {
+  height: 40px;
+  border-top: 1px dotted black;
+  border-left: 1px dotted black;
+}
+
+th.time {
+  width: 10%;
+}
+
+th.event {
+  width: 25%;
+}
+
+th.delegate {
+  width: 15%;
+}
+
+th.description {
+  width: 50%;
 }

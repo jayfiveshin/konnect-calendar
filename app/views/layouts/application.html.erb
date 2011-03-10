@@ -9,9 +9,13 @@
   </head>
   <body>
     <%= render 'layouts/header' %>
+    <%= render 'layouts/sidebar_left' %>
     <div class="center", id="mainbar">
       <%= yield %>
     </div>
     <%= render 'layouts/footer' %>
+    <script type="text/javascript">
+      countdown(2011, 03, 12);
+    </script>
   </body>
 </html>
