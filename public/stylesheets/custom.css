@@ -19,8 +19,8 @@ footer {
 }
 
 #mainbar {
-	width: 1000px;
-	height: 550px;
+	width: 400px;
+	height: 1040px;
 	padding: 15px;
 	border-style: ridge;
 	border-width: 5px;
@@ -54,7 +54,8 @@ body, p, h1, h2, h3, h4, table, td, th, ul, ol, textarea, input {
 
 h1 {
 	font-size: 200%;
-	font-weight: normal;
+	font-weight: 300;
+	letter-spacing: -0.5px;
 	margin-top: 0;
 	text-align: center;
 }
