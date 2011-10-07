@@ -1,4 +1,4 @@
-# Welcome to The TimeLine
-This is going to be a growing project between [JS](http://www.shinjoonha.com/) and LS.
+# Konnect Calendar
+This was an application that was built for countdown to the Konnect High School Retreat 2011.
 
-# Welcome to The TimeLine
+It served its purpose, but I'm going to keep it since it was the first time that I used javascript. I may return to do more experiments with javascript.
